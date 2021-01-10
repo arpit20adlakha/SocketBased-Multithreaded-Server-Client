@@ -15,13 +15,12 @@ public class ClientSide1Code {
                 DataInputStream input = new DataInputStream(socket.getInputStream());
                 DataOutputStream output = new DataOutputStream(socket.getOutputStream());
         ) {
-            for(int i = 0; i < 5; i++) {
-                Scanner scanner = new Scanner(System.in);
-                String msg = scanner.nextLine();
-
-                output.writeUTF(msg);
-                String receivedMsg = input.readUTF();
-                System.out.println("Received from server:"+ receivedMsg);
+            for (int i = 0; i < 5; i++) {
+                 Scanner scanner = new Scanner(System.in);
+                 String msg = scanner.nextLine();
+                 output.writeUTF(msg);
+                 String receivedMsg = input.readUTF();
+                 System.out.println("Received from server:"+ receivedMsg);
             }
         } catch (IOException e) {
             e.printStackTrace();

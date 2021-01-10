@@ -33,9 +33,9 @@ class Session extends Thread {
         try (DataInputStream input = new DataInputStream(socket.getInputStream());
              DataOutputStream output = new DataOutputStream(socket.getOutputStream());
         ) {
-            for(int i = 0; i < 5; i++) {
-                String msg = input.readUTF();
-                output.writeUTF(msg);
+            for (int i = 0; i < 5; i++) {
+                 String msg = input.readUTF();
+                 output.writeUTF(msg);
             }
             socket.close();
         } catch (IOException e) {
