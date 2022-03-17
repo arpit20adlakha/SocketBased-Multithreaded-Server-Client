@@ -1,6 +1,4 @@
-package jdbc;
-
-import org.w3c.dom.ls.LSOutput;
+package concepts;
 
 import java.io.*;
 import java.net.ServerSocket;

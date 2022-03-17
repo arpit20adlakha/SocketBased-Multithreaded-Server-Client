@@ -1,7 +1,4 @@
-package jdbc;
-
-import java.awt.image.ImageObserver;
-import java.util.Observable;
+package concepts.crap;
 
 public class LeetCodeDecember {
 

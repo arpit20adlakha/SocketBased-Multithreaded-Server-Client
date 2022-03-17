@@ -1,4 +1,4 @@
-package jdbc;
+package concepts;
 
 import java.util.function.Function;
 import java.util.function.IntPredicate;

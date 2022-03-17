@@ -1,4 +1,4 @@
-package jdbc;
+package concepts;
 
 public class MainMethodd {
     public static void main(String[] args) throws Exception{

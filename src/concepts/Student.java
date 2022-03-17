@@ -1,4 +1,4 @@
-package jdbc;
+package concepts;
 
 public class Student {
     public String firstName;

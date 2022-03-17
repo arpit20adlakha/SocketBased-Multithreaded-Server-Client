@@ -1,6 +1,5 @@
-package jdbc;
+package concepts;
 
-import java.io.CharArrayReader;
 import java.io.CharArrayWriter;
 import java.io.FileWriter;
 

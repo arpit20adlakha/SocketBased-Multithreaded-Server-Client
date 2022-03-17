@@ -1,10 +1,10 @@
-package jdbc;
+package concepts;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
+
 class A {
 
     protected int a;
@@ -48,7 +48,7 @@ class C extends B {
         System.out.println(Thread.MIN_PRIORITY);
         System.out.println(Thread.MAX_PRIORITY);
         LocalDate.now().getYear();
-        Class student = Class.forName("jdbc.Student");
+        Class student = Class.forName("concepts.Student");
         Constructor[] declaredConstructors = student.getDeclaredConstructors();
         Constructor[] constructors = student.getConstructors();
         Field[] declaredFields = student.getDeclaredFields();

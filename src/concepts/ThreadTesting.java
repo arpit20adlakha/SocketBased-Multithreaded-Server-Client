@@ -1,4 +1,4 @@
-package jdbc;
+package concepts;
 
 public class ThreadTesting extends Thread {
     @Override

@@ -1,4 +1,4 @@
-package jdbc;
+package concepts;
 
 import java.io.ByteArrayOutputStream;
 

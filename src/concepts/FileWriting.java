@@ -1,7 +1,6 @@
-package jdbc;
+package concepts;
 
 import java.io.*;
-import java.util.Arrays;
 
 public class FileWriting {
 

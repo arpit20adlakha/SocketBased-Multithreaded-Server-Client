@@ -1,4 +1,4 @@
-package jdbc;
+package concepts.clientserver;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
